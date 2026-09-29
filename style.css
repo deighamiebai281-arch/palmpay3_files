@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    flex-direction: column;
+}
+.b {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px 12px;
+    padding-left:  30px;
+    padding-right: 30px;
+}
+.logo {
+    width: 200px;
+    height: 50px;
+}
+.c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1 {
+    margin-top: 60px;
+    font-family: "Inter", sans-serif;
+}
+.d {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper1{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 9px;
+}
+
+.l1{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 15px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+}
+input :focus{
+    outline: none;
+    border: none;
+
+}
+input{
+    border:1px solid black;
+    outline: none;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 17px;
+    margin-bottom: 25px;
+}
+button{
+    height: 45px;
+    color: white;
+    background-color: rgb(73, 43, 226);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+label{
+  font-family: "Inter", sans-serif;
+  text-transform: lowercase;
+    
+}
+p{
+    font-family: "Inter", sans-serif;
+    text-transform: lowercase;
+    color: rgb(76, 43, 226);
+}
+p2{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+e{
+    display: flex;
+    gap: 6px;
+    margin-top: 5px;
+}
+a{
+    font-family: "Inter", sans-serif;
+}
+select{
+    border: none;
+    position: relative;
+    top: -55px;
+    background-color: none;
+    width: 17px;
+    left: 19px;
+
+}
+select:focus{
+    border: none;
+    outline: none;
+}
+.space{
+    padding-left: 50px;
+}
